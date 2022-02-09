@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Jar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-side">
+        <div id="title">
+            <img id="logo" src="images/download.png" alt="">
+            <h1 id="title-text" >Space Jar</h1>
+        </div>
+
+    </div>
+    <div class="right-side">
+        <div class="upper-container">
+            <p>This is not a real online service! You know you need somthing like this in your life to help you realise your deepest dreams.<br>Sign up <i class="italic">now</i> to get started</p>
+            <p id="subtext">You <i class="italic">know</i> you want to.</p>
+        </div>
+        <div class="middle-container">
+            <p id="goldtext">Let's do this!</p>
+            <form action="details" class="inputs-container" id="form1">
+                <div class="inputs-container-left">
+                    <div class="inputs">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" placeholder="John" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="user_email">Email:</label>
+                        <input type="email" name="email" id="user_email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="user_password">Password:</label>
+                        <input type="password" id="user_password" name="password" required>
+                    </div>
+                </div>
+                <div class="inputs-container-right">
+                    <div class="inputs">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" placeholder="Doe" required>
+                    </div>
+                    <div class="inputs">
+                        <label for="mob-number">Number:</label>
+                        <input type="tel" id="mob-number" name="mob-number" placeholder="+44 1234 123456">
+                    </div>
+                    <div class="inputs">
+                        <label for="confirm_password">Confirm Password:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>
+                    </div>
+                </div>
+            </form>            
+        </div>
+        <div class="lower-container">
+            <button id="create-account" type="submit" form="form1">Create Account</button>
+            <p>Already have an account? <a id="login" href="url">Log in</a> </p>
+        </div>
+    </div>
+</body>
+</html>
